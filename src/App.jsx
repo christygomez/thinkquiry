@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Home from './components/Home.jsx';
 import Room from './components/Room.jsx';
 import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar/index.js';
 
 const App = () => {
   const [socket, setSocket] = useState('');
@@ -11,6 +12,7 @@ const App = () => {
     <div>
       <BrowserRouter>
         <Navbar />
+        <Sidebar></Sidebar>
         <Switch>
           <Route exact path='/'>
             <Home setSocket={setSocket} />

@@ -1,4 +1,5 @@
-function Responses() {
+// bring in destructured both studentResponses and questionType
+function Responses({ studentResponses }) {
   const dummyAnswers = [
     { participant: 'paul', answer: 'A' },
     { participant: 'ccc', answer: 'C' },

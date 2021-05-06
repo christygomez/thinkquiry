@@ -17,7 +17,7 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to='/'>? Thinkquiry</NavLogo>
+          <NavLogo to='/'> &#191;Thinkquiry?</NavLogo>
           <MobileIcon>
             <FaBars />
           </MobileIcon>
